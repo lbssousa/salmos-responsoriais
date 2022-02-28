@@ -1,0 +1,35 @@
+% chktex-file 1
+% chktex-file 21
+
+\makeatletter
+
+\newcommand{\Map}[2]{\@for\p:={#2}\do{#1\p}} % chktex 41
+
+\NewDocumentCommand{\AllowPageFlush}{}{
+  \clearpage
+}
+
+\NewDocumentCommand{\AllowPageBreak}{}{
+  \clearpage\hbox{}\newpage
+}
+
+\NewDocumentCommand{\GregorioImport}{s m m m}{
+  \bgroup
+  \IfBooleanT{#1}{\gresetinitiallines{0}}
+  \gregorioscore{#2/#3/#4}
+  \egroup
+}
+
+\NewDocumentCommand{\MakeChantAlleluiaPsalm}{m m}{
+  \GregorioImport{GABC/Aleluia}{#1}{aleluia}
+  \noindent\begin{rubrica}Todos:\end{rubrica} Aleluia, aleluia, aleluia.
+  \GregorioImport*{GABC}{#2}{aleluia-v1}
+}
+
+\newcommand{\DoGregorioImport}{}
+\NewDocumentCommand{\MakeChantLongPsalm}{m m}{
+  \renewcommand{\DoGregorioImport}[1]{\GregorioImport*{GABC}{#1}{##1}}
+  \Map{\DoGregorioImport}{#2}
+}
+
+\makeatother

@@ -20,10 +20,15 @@
   \egroup
 }
 
+\NewDocumentCommand{\MakeChantAlleluia}{m}{
+  \GregorioImport{GABC/Aleluia}{#1}{aleluia}
+  \noindent\begin{rubrica}Todos:\end{rubrica} Aleluia, aleluia, aleluia.
+}
+
 \NewDocumentCommand{\MakeChantAlleluiaPsalm}{m m}{
   \GregorioImport{GABC/Aleluia}{#1}{aleluia}
   \noindent\begin{rubrica}Todos:\end{rubrica} Aleluia, aleluia, aleluia.
-  \GregorioImport*{GABC}{#2}{aleluia-v1}
+  \GregorioImport*{GABC}{#2}{v}
 }
 
 \newcommand{\DoGregorioImport}{}

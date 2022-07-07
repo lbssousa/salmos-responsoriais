@@ -25,10 +25,13 @@
   \noindent\begin{rubrica}Todos:\end{rubrica} Aleluia, aleluia, aleluia.
 }
 
-\NewDocumentCommand{\MakeChantAlleluiaPsalm}{m m}{
-  \GregorioImport{GABC/Aleluia}{#1}{aleluia}
-  \noindent\begin{rubrica}Todos:\end{rubrica} Aleluia, aleluia, aleluia.
-  \GregorioImport*{GABC}{#2}{v}
+\NewDocumentCommand{\MakeChantVerse}{m m}{
+  \GregorioImport*{GABC}{#1}{#2}
+}
+
+\NewDocumentCommand{\MakeChantAlleluiaVerse}{m m}{
+  \MakeChantAlleluia{#1}
+  \MakeChantVerse{#2}{v}
 }
 
 \newcommand{\DoGregorioImport}{}

@@ -3,9 +3,6 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "runArgs": [
-    "--userns=keep-id"
-  ],
   "settings": {
     "editor.bracketPairColorization.enabled": true,
     "editor.fontLigatures": true,

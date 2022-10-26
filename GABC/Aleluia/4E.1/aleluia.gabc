@@ -1,13 +1,14 @@
 name: Aleluia;
 mode: 4;
+mode-modifier: \GreStar;
 mode-differentia: E;
 
 %%
 
 (c4)
 
-A(e)le(f)lu(gh)ia,(g) (,) a(g)le(h)lu(g)ia,(fd) a(f)le(g)lu(e)ia.(e)
+A(e)le(f)lu(g!ho)ia,(g) (,) a(g)le(h)lu(g)ia,(fd) a(f)le(g)lu(e)ia.(e)
 
 (::)
 
-(e+)
+(g+)

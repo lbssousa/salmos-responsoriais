@@ -1,7 +1,11 @@
 {
   "name": "salmos-responsoriais",
-  "build": {
-    "dockerfile": "Dockerfile"
+  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+  "features": {
+    "ghcr.io/lbssousa/texlive-music-devcontainer-features/texlive:1": {
+      "version": "2022",
+      "scheme": "full"
+    }
   },
   "settings": {
     "editor.bracketPairColorization.enabled": true,
@@ -60,14 +64,10 @@
     "latex-workshop.view.pdf.viewer": "tab"
   },
   "extensions": [
-    "eamodio.gitlens",
-    "GitHub.copilot",
     "james-yu.latex-workshop",
-    "jeandeaual.lilypond-syntax",
-    "softaware.abc-music",
     "tecosaur.latex-utilities",
     "valentjn.vscode-ltex",
     "yzhang.markdown-all-in-one"
   ],
-  "remoteUser": "gitpod"
+  "remoteUser": "vscode"
 }

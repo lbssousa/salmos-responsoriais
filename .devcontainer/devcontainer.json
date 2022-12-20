@@ -62,12 +62,12 @@
       "--view",
       "--shell-escape"
     ],
-    "latex-workshop.view.pdf.viewer": "tab"
+    "latex-workshop.view.pdf.viewer": "tab",
+    "terminal.integrated.defaultProfile.linux": "zsh"
   },
   "extensions": [
     "james-yu.latex-workshop",
     "tecosaur.latex-utilities",
-    "valentjn.vscode-ltex",
     "yzhang.markdown-all-in-one"
   ],
   "remoteUser": "vscode"

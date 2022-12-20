@@ -56,4 +56,5 @@
   ],
   "latex-workshop.view.pdf.viewer": "tab",
   "terminal.integrated.fontSize": 14,
+  "terminal.integrated.defaultProfile.linux": "zsh"
 }

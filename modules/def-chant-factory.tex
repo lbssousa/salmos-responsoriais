@@ -34,6 +34,11 @@
   \MakeChantVerse{#2}{v}
 }
 
+\NewDocumentCommand{\MakeChantLentAcclamationVerse}{m m}{
+  \GregorioImport*{GABC/Quaresma}{Aclamacoes}{#1}
+  \MakeChantVerse{#2}{v}
+}
+
 \newcommand{\DoGregorioImport}{}
 \NewDocumentCommand{\MakeChantLongPsalm}{m m}{
   \renewcommand{\DoGregorioImport}[1]{\GregorioImport*{GABC}{#1}{##1}}

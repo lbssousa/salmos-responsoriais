@@ -1,0 +1,38 @@
+% chktex-file 1
+\frontmatter
+
+\tableofcontents
+
+\mainmatter
+
+\input{praenotanda}
+
+\tocchapter{Tempo da Quaresma}\label{chapter:quaresma}
+
+\tocsection{Quarta-Feira de Cinzas}\label{section:quaresma/semana-0/quarta}
+
+\def\Prefix{Quaresma/Semana-0/Feira-4}
+
+\subsection{Salmo Responsorial}\label{subsection:semana-0/quarta/salmo-responsorial}
+\index{Salmo!50@50(51)}
+\index[refroes]{Misericórdia, ó Senhor, pois pecamos"!}
+\index[tons]{C 2}
+\MakeChantLongPsalm{\Prefix/Salmo-Responsorial}{r,v1,v2,v3,v4}
+\AllowPageFlush
+
+\subsection{Aclamação ao Evangelho}\label{subsection:semana-0/quarta/aclamacao}
+\index[aclamacoes]{Oxalá ouvísseis hoje a sua voz: não fecheis os corações como em Meriba"!}
+\MakeChantLentAcclamationVerse{jesus-cristo-sois-bendito}{\Prefix/Aclamacao}
+\AllowPageFlush
+
+\renewcommand*{\indexname}{Índice de salmos e cânticos}
+\printindex
+
+\renewcommand*{\indexname}{Índice de refrões}
+\printindex[refroes]
+
+\renewcommand*{\indexname}{Índice de ocorrências dos tons salmódicos}
+\printindex[tons]
+
+\renewcommand*{\indexname}{Índice de versos das aclamações ao Evangelho}
+\printindex[aclamacoes]

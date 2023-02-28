@@ -21,8 +21,8 @@ Este caderno é uma extensão do projeto de adaptação do {\GS} para língua po
 
 No que tange aos cantos de aclamação ao Evangelho, o processo de acomodação melódica aos textos do Lecionário é trivial, bastando definir um critério para a escolha dos tons salmódicos e aplicá-los diretamente ao texto. Para os salmos responsoriais, por sua vez, o processo de adaptação dos tons salmódicos arcaicos aos textos do Lecionário foi bem mais desafiador, principalmente devido à grande diferença na forma dos salmos responsoriais entre as duas fontes:
 \begin{itemize}
-    \item nos salmos responsoriais do {\GS}, canta-se um responsório breve ao final de cada verso salmódico (que geralmente corresponde a um versículo do salmo em questão).
-    \item no Lecionário, inicia-se o canto pelo refrão, que pode ser mais breve ou mais longo, semelhante a uma antífona, ao qual se alternam os versos salmódicos agrupados em estrofes.
+  \item nos salmos responsoriais do {\GS}, canta-se um responsório breve ao final de cada verso salmódico (que geralmente corresponde a um versículo do salmo em questão).
+  \item no Lecionário, inicia-se o canto pelo refrão, que pode ser mais breve ou mais longo, semelhante a uma antífona, ao qual se alternam os versos salmódicos agrupados em estrofes.
 \end{itemize}
 
 O maior desafio para este projeto foi tomar as melodias dos refrões breves do {\GS} e estendê-las, de maneira coerente, para que pudessem ser acomodadas aos refrões de tamanho variável do Lecionário. Para isso, analisamos todas as variações de refrões presentes no {\GS} para cada tom salmódico, extraímos os padrões melódicos comuns todas elas e, sobre estes padrões, elaboramos uma fórmula geral que pudesse ser adaptada a diferentes tamanhos de texto.
@@ -31,25 +31,52 @@ Outro desafio, um pouco menor, foi estudar todos os tons salmódicos para salmos
 
 \subsection{Os tons salmódicos utilizados neste caderno}
 
-Ao longo deste caderno, utilizaremos 10 tons salmódicos para salmos responsoriais, além de 3 tons salmódicos específicos para salmos aleluiáticos, isto é, salmos responsoriais cujo refrão seja \emph{Aleluia, aleluia, aleluia}. A relação dos tons salmódicos aqui utilizados é a seguinte:
+Ao longo deste caderno, utilizaremos 13 tons salmódicos para salmos responsoriais, além de 3 tons salmódicos específicos para salmos aleluiáticos, isto é, salmos responsoriais cujo refrão seja \emph{Aleluia, aleluia, aleluia}. A relação dos tons salmódicos aqui utilizados é a seguinte:
 \begin{itemize}
-    \item C \protect\GreStar, D 1 e, D 1 g, D \protect\GreStar, E 3, E 4 e E 5, idênticos aos tons salmódicos de mesmo nome no {\GS}.
-    \item C 2, correspondente ao tom salmódico C 2 g do {\GS}.
-    \item C 3 g, correspondente aos tons salmódicos C 3 g a (nos versos ímpares) e C 3 g g (nos versos pares) do {\GS}.
-    \item E 2, correspondente ao tom salmódico E 2 d do {\GS}.
-    \item Tom salmódico aleluiático I, tal como aparece na página 157 do {\GS}.
-    \item Tom salmódico aleluiático II, tal como aparece na página 297 do {\GS}.
-    \item Tom salmódico aleluiático III, tal como aparece na página 454 do {\GS}.
+  \item C \protect\GreStar, C 1, C 2 a, C 2 g, C 3 a, C 3 g, D 1 e, D 1 g, D \protect\GreStar, E 2 d, E 3, E 4 e E 5, idênticos aos tons salmódicos de mesmo nome no {\GS}.
+  \item Tom salmódico aleluiático I, tal como aparece na página 157 do {\GS}.
+  \item Tom salmódico aleluiático II, tal como aparece na página 297 do {\GS}.
+  \item Tom salmódico aleluiático III, tal como aparece na página 454 do {\GS}.
 \end{itemize}
 
 \subsection{Critérios para a escolha dos tons salmódicos}
 
 Para as aclamações ao Evangelho, o critério de escolha dos tons salmódicos é relativamente simples. Para cada missa, procuramos tomar, dentre as diversas opções de {\Al} disponíveis no {\GS}, a que está escrita no mesmo modo gregoriano do canto correspondente no {\GR} ({\Al} ou, no Tempo da Quaresma, \emph{Tractus}) para a missa em questão (exemplo: VIII modo para o I Domingo do Advento), exceto quando este for o V modo, que não possui equivalente no {\GS} (neste caso, tomaremos a melodia em VI modo). Quando houver duas ou mais opções de {\Al} no {\GS} para o mesmo modo gregoriano, alternamos entre uma e outra opção, dando preferência às melodias mais ornadas para os domingos e solenidades.
 
-Para os salmos responsoriais, a escolha do tom salmódico leva em conta os seguintes critérios:
+Para os salmos responsoriais, a escolha do tom salmódico segue os seguintes critérios:
 \begin{enumerate}
-    \item buscamos a melhor acomodação da melodia para o refrão do salmo responsorial, de acordo com a extensão do texto;
-    \item caso o salmo responsorial em questão apareça originalmente no {\GS} como salmo responsorial ou aleluiático, escolhemos preferencialmente o mesmo tom salmódico na ocorrência em questão, desde que o critério 1 seja satisfeito.
+  \item Caso o salmo responsorial em questão apareça originalmente no {\GS} como salmo responsorial ou aleluiático, escolhemos preferencialmente o mesmo tom salmódico na ocorrência em questão, com as seguintes substituições para os tons salmódicos não utilizados:
+        \begin{center}
+          \begin{tabular}{|c|c|}
+            \hline
+            tom salmódico original & tom salmódico substituto \\
+            \hline
+            C 4                    & C 1                      \\
+            D 1 b                  & D 1 g                    \\
+            E 1                    & E 5                      \\
+            E 2 e                  & E 2 d                    \\
+            E \GreStar             & E 5                      \\
+            \hline
+          \end{tabular}
+        \end{center}
+  \item Caso o salmo responsorial em questão apareça originalmente no {\GS} apenas acompanhando alguma antífona em um dos oito modos gregorianos, escolhemos preferencialmente um tom salmódico que se aproxime do modo em questão. Para esta tarefa, elaboramos a seguinte tabela de correspondência:
+        \begin{center}
+          \begin{tabular}{|c|c|}
+            \hline
+            modo & tom salmódico prefencial \\
+            \hline
+            I    & C 3 a, C 3 g ou E 4      \\
+            II   & C \protect\GreStar       \\
+            III  & E 2 d ou E 5             \\
+            IV   & D 1 e                    \\
+            V    & E 4                      \\
+            VI   & C 2 a, C 2 g ou E 3      \\
+            VII  & D 1 g                    \\
+            VIII & D \protect\GreStar       \\
+            \hline
+          \end{tabular}
+        \end{center}
+  \item Para todos os outros casos, escolhemos livremente o tom salmódico, priorizando a melhor acomodação melódica para o refrão do salmo responsorial.
 \end{enumerate}
 Em todo caso, sempre que se repetir um mesmo salmo com o mesmo refrão, utilizaremos sempre o mesmo tom salmódico.
 

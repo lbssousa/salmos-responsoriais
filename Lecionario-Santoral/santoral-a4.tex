@@ -7,24 +7,24 @@
 
 \hypersetup{colorlinks=true,linkcolor=black,urlcolor=gregoriocolor}
 
+\def\Lecionario{Lecionário Santoral da CNBB}
+
 \input{modules/def-toggles}
 \input{modules/def-gregorio}
 \input{modules/def-chant-factory}
 \input{modules/def-titles}
 \input{modules/def-headings}
 \input{modules/def-titlepage}
+\input{modules/def-indices}
 
-% Descomente as duas linhas abaixo para separar as versões em
-% latim e vernáculo em páginas distintas.
-%\toggletrue{compact}
-\toggletrue{disablehyperlinks}
+\hypersetup{colorlinks=true,linkcolor=gregoriocolor}
 
-\title{Santoral}
+\title{Próprio dos Santos e Comuns}
 
-\author{Laércio de Sousa}
+\author{Tons salmódicos responsoriais e aleluiáticos do \\ \emph{Graduale Simplex}}
 
 \begin{document}
-
+\maketitle
+\input{modules/def-titlepage-back}
 \input{Lecionario-Santoral/def-contents}
-
 \end{document}

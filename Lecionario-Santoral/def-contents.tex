@@ -1,11 +1,9 @@
 % chktex-file 1
-\maketitle
-
 \frontmatter
 
 \tableofcontents
 
-%\input{graduale-simplex/praenotanda}
+\input{praenotanda}
 
 \mainmatter
 
@@ -16,25 +14,48 @@
 \def\Prefix{Proprio-dos-Santos/Sao-Jose-Esposo-de-Nossa-Senhora}
 
 \subsection{Salmo Responsorial}\label{subsection:proprio-dos-santos/sao-jose/salmo-responsorial}
-
 \MakeChantLongPsalm{\Prefix/Salmo-Responsorial}{r,v1,v2,v3}
 \AllowPageFlush
 
 \subsection{Aclamação ao Evangelho}\label{subsection:proprio-dos-santos/sao-jose/aclamacao}
+\index[aclamacoes]{Felizes os que habitam vossa casa, para sempre eles hão de vos louvar"!}
 
-\MakeChantLongPsalm{\Prefix/Aclamacao}{r,v}
+\subsubsection{Tempo da Quaresma}
+\index[quaresmais]{Louvor e glória a ti, Senhor, Cristo, Palavra de Deus.}
+\MakeChantLentAcclamationVerse{louvor-e-gloria-a-ti-senhor}{\Prefix/Aclamacao}
+
+\subsubsection{Tempo Pascal}
+\begin{rubrica}
+  Nos anos em que o dia 19 de março está situado dentro da Semana Santa, a Solenidade de São José é transferida para a segunda-feira após a Oitava da Páscoa.
+\end{rubrica}
+\MakeChantAlleluiaVerse{4E.1}{\Prefix/Aclamacao-Pascal}
 \AllowPageFlush
 
-\Solemnitas{Anunciação do Senhor}{25 de março}\label{section:proprio-dos-santos/anunciacao-do-senhor}
+%\Solemnitas{Anunciação do Senhor}{25 de março}\label{section:proprio-dos-santos/anunciacao-do-senhor}
 
-\def\Prefix{Proprio-dos-Santos/Anunciacao-do-Senhor}
+%\def\Prefix{Proprio-dos-Santos/Anunciacao-do-Senhor}
 
-\subsection{Salmo Responsorial}\label{subsection:proprio-dos-santos/anunciacao-do-senhor/salmo-responsorial}
+%\subsection{Salmo Responsorial}\label{subsection:proprio-dos-santos/anunciacao-do-senhor/salmo-responsorial}
 
-\MakeChantLongPsalm{\Prefix/Salmo-Responsorial}{r,v1,v2,v3,v4}
-\AllowPageFlush
+%\MakeChantLongPsalm{\Prefix/Salmo-Responsorial}{r,v1,v2,v3,v4}
+%\AllowPageFlush
 
-\subsection{Aclamação ao Evangelho}\label{subsection:proprio-dos-santos/anunciacao-do-senhor/aclamacao}
+%\subsection{Aclamação ao Evangelho}\label{subsection:proprio-dos-santos/anunciacao-do-senhor/aclamacao}
 
-\MakeChantLongPsalm{\Prefix/Aclamacao}{r,v}
-\AllowPageFlush
+%\MakeChantLongPsalm{\Prefix/Aclamacao}{r,v}
+%\AllowPageFlush
+
+\renewcommand*{\indexname}{Índice de salmos e cânticos}
+\printindex
+
+\renewcommand*{\indexname}{Índice de refrões}
+\printindex[refroes]
+
+\renewcommand*{\indexname}{Índice de ocorrências dos tons salmódicos}
+\printindex[tons]
+
+\renewcommand*{\indexname}{Índice de ocorrências dos refrões de aclamação quaresmais}
+\printindex[quaresmais]
+
+\renewcommand*{\indexname}{Índice de versos das aclamações ao Evangelho}
+\printindex[aclamacoes]

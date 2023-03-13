@@ -1,7 +1,11 @@
-name: Quaresma - Semana IV - Terça-Feira - Salmo Responsorial;
-mode: C \GreStar;
+name: Quaresma - IV Semana - Terça-Feira - Salmo Responsorial;
+mode: C \protect\GreStar;
 commentary: Sl 45(46),2-3.5-6.8-9 (R. 8);
+
+%%
 
 (f3)
 
-<c><sp>R/</sp>.</c>() Co(h)nos(h)co(h) es(h)tá(h) o(h) Se(g)nhor(f) do(f) U(g)ni(h)ver(ij)so!(i) O(i) nos(i)so(i) re(i)fú(i)gio(i) é(g) o(h) Deus(ig) de(h) Ja(f)có.(f)
+<c><sp>R/</sp>.</c>() Co(h)nos(h)co(h) es(h)tá(h) o(h) Se(g)nhor(f) do(f) U(g)ni(h)ver(ij)so!(i) (,) O(i) nos(i)so(i) re(i)fú(i)gio(i) é(g) o(h) Deus(ig) de(h) Ja(f)có.(f)
+
+(::)

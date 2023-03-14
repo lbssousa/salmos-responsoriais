@@ -1,11 +1,11 @@
-name: Quaresma - Quarta-Feira de Cinzas - Aclamação ao Evangelho;
-mode: C *;
+name: Jesus Cristo, sois bendito;
+mode: C \protect\GreStar;
 
 %%
 
 (f3)
 
 <c><sp>R/</sp>.</c>() Je<alt>\textbf{C \protect\GreStar}</alt>(h)sus(g) Cris(f)to,(f) sois(g) ben(h)di(ij)to,(i) (,)
-sois(i) o(i) Un(g)gi(hi)do(g) de(h) Deus(f) Pai!(f)
+sois(i) o(i) Un(g)gi(h)do(i) de(g) Deus(h) Pai!(f)
 
 (::)
